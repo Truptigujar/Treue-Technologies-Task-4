@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+	<style>
+		body {
+			background-color: pink;
+		}
+		.gallery {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.gallery img {
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+			margin: 10px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div class="gallery">
+		<a data-fancybox="gallery" href="https://picsum.photos/id/1000/1200/800"><img src="https://picsum.photos/id/1000/200/200" /></a>
+		<a data-fancybox="gallery" href="https://picsum.photos/id/1001/1200/800"><img src="https://picsum.photos/id/1001/200/200" /></a>
+		<a data-fancybox="gallery" href="https://picsum.photos/id/1002/1200/800"><img src="https://picsum.photos/id/1002/200/200" /></a>
+		<a data-fancybox="gallery" href="https://picsum.photos/id/1003/1200/800"><img src="https://picsum.photos/id/1003/200/200" /></a>
+		<a data-fancybox="gallery" href="https://picsum.photos/id/1004/1200/800"><img src="https://picsum.photos/id/1004/200/200" /></a>
+		<a data-fancybox="gallery" href="https://picsum.photos/id/1005/1200/800"><img src="https://picsum.photos/id/1005/200/200" /></a>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</body>
+</html>
